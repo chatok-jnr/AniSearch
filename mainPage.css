@@ -1,0 +1,123 @@
+body{
+    background-image: url(sheam.jpg);
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Oxygen", sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav h1{
+    margin-right: 70%;
+    font-size: 50px;
+    color:#FF4037;
+    border: 1px solid black;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.log{
+    width: 100px;
+    margin: 10px;
+    height: 60px;
+    color: rgba(217, 8, 9, 2);
+    font-size: 25px;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(217, 8, 9, 2);
+    backdrop-filter: blur(3px);
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(217, 8, 9, 0.3);
+}
+.log:hover{
+    background-color: rgba(217, 8, 9, 2);
+    color: black;
+    margin-left: 5px;
+    box-shadow: 0 0 25px rgba(217, 8, 9, 7);
+}
+
+.list{
+    width: 200px;
+    margin: 10px;
+    height: 60px;
+    color: rgba(0, 0, 0, 20);
+    font-size: 25px;
+    background: transparent;
+    box-shadow: rgba(8, 217, 161, 2);
+    backdrop-filter: blur(10px);
+    background-color: rgba(8, 217, 161, 0.3);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.list:hover{
+    background-color: rgba(8, 217, 161, 2);
+    color: black;
+    margin-left: 5px;
+    box-shadow: 0 0 25px rgba(8, 217, 161, 7);
+}
+
+.srch{
+    display: flex;
+    justify-content: center;
+}
+
+.srch input{
+    border-radius: 10px;
+    width: 800px;
+    height: 60px;
+    margin-right: 4px;
+    font-size: 30px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 5px solid rgb(0, 0, 38);
+    color: rgb(0, 232, 166);
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.srch input::placeholder{
+    color: white;
+}
+
+.btn1{
+    border-radius: 5px;
+    margin-left: 4px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background: transparent;
+   
+    color: rgb(38, 38, 37);
+    backdrop-filter: blur(20px);
+    background-color: rgba(133,118,255,0.3);
+    box-shadow: 0 0 10px 5px rgba(255, 242, 205, 0.3);
+}
+
+
+
+.showCase{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.main1{
+    border: 1px solid #465348;
+    width: 80%;
+    height: 1000px;
+    box-shadow:  5px 5px 5px black;
+    overflow-y: auto;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+

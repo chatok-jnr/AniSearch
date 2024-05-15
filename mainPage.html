@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
+    <link rel="stylesheet" href="mainPage.css">
+</head>
+<body>
+
+    <div class="nav">
+        <h1>AniSearch</h1>
+        <button onclick="showList()" id="showList" class="list">My Fav List</button>
+        <button onclick="logout()" class="log">Log out</button>
+    </div>
+
+    <div class="srch">
+        <input id="srch1" type="text" placeholder="Search Your Anime Here">
+        <button class="btn1" id="btn1" onclick="jikan()">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        </button> 
+    </div>
+
+
+    <div class="showCase" id="showCase">
+        <div class="main1" id="main1">
+
+        </div>
+    </div>
+
+
+
+    <script src="mainPage.js"></script>
+</body>
+</html>
